@@ -848,7 +848,7 @@ width:33px;
          font-size:30px;
     }
     .heading1{
-        left:0px;
+        left:50px;
         top:90px;
         font-size:30px;
     }
@@ -856,14 +856,14 @@ width:33px;
         color:black;
     }
     .heading2{
-        left:0px;
+        left:50px;
         top:200px;
     }
     .but1{
-        left:0px;
+        left:50px;
     }
     .grid{
-        left:0px;
+        left:50px;
         top:300px;
     }
     .vect1{
@@ -898,8 +898,6 @@ width:33px;
 .trip1{
     display:flex;
     flex-wrap:wrap-reverse;
-   
-
 }
 .trip{
     height:350px;
@@ -911,7 +909,7 @@ width:33px;
   width:300px;
 }
 .sec4ppp{
-    left:0px;
+    left:20px;
     top:100px;
     width:100%;
 }
@@ -941,6 +939,8 @@ width:33px;
 .triptrip{
     height:300px;
     width:300px;
+    position:relative;
+    left:30px;
 }
 .sec4vv{
     left:100px;
@@ -967,6 +967,7 @@ width:33px;
 }
 .sec5{
     top:900px;
+    padding:30px;
 }
 .sec4sss{
     top:800px;
@@ -1003,7 +1004,7 @@ width:33px;
 
 }
 .boat11{
-    left:0px;
+    left:20px;
     top:-100px;
     width:100%;
 }
@@ -1027,12 +1028,12 @@ left:0px;
 }
 .boat12{
     width:100%;
-    left:0px;
+    left:20px;
     top:0px;
 }
 .boat13{
     width:100%;
-    left:0px;
+    left:20px;
     top:100px;
 }
 .top10{
@@ -1042,10 +1043,13 @@ left:0px;
 }
 .back1{
     flex-wrap: wrap;
+    
 }
 .back2{
     top:30px;
     height:300px;
+    width:320px;
+    left:30px;
 }
 .efx{
     margin-left:0px;
@@ -1071,10 +1075,11 @@ left:0px;
 .foot100{
     flex-wrap: wrap;
     background-color:black;
-    left:0px;
+    left:20px;
     top:0px;
     
 }
+
 .tour12,.tour11{
     display:none;
 }
@@ -1087,6 +1092,16 @@ left:0px;
 }
 .foot101{
     color:white;
+}
+.card{
+    left:30px;
+}
+.trust1{
+    position:relative;
+    left:30px;
+}
+.back11{
+justify-content: center;
 }
 }
 @media only screen and (min-width:600px) and (max-width:900px){
@@ -1177,7 +1192,7 @@ a{
     height:350px;
 }
 .line100{
-    left:0px;
+    left:-350px;
     width:450px;
     height:1400px;
 }
